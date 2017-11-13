@@ -15,7 +15,6 @@ function ternaryCheckCity(city) {
    return (city === 'NYC') ? 'Ok, sounds good.' : 'No go.'
 }
 
-function switchOnCharmFromTip(tipString) {
 switch (OnCharmFromTip()) {
   case 'generous':
     console.log('Thank you so much.')
@@ -26,8 +25,8 @@ switch (OnCharmFromTip()) {
   default:
     console.log('Bye.')
 }
-}
 
+function switchOnCharmFromTip(tipString) {
 switch(tipString){
   case "generous":
     return "Thank you so much."
@@ -35,4 +34,5 @@ switch(tipString){
     return "Thank you."
   case "thanks for everything":
     return "bye."
+}
 }
