@@ -10,10 +10,12 @@ function scuberGreetingForFeet(feet) {
     return 'No can do.'
   }
 }
+
 function ternaryCheckCity(city) {
    return (city === 'NYC') ? 'Ok, sounds good.' : 'No go.'
 }
 
+function switchOnCharmFromTip(tipString) {
 switch (OnCharmFromTip()) {
   case 'generous':
     console.log('Thank you so much.')
@@ -23,6 +25,7 @@ switch (OnCharmFromTip()) {
     break;
   default:
     console.log('Bye.')
+}
 }
 
 switch(tipString){
