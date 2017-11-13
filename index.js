@@ -33,6 +33,6 @@ switch(tipString){
   case "not as generous":
     return "Thank you."
   case "thanks for everything":
-    return "bye."
+    return "Bye."
 }
 }
